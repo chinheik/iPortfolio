@@ -1,0 +1,139 @@
+.skillcontent {
+  display: flex;
+}
+.skillleft {
+  width: 50%;
+  height: 30vh;
+}
+
+.skillright {
+  width: 50%;
+  height: 30vh;
+}
+
+.sbar {
+  background-color: lightblue;
+  width: 80%;
+  height: 3vh;
+  margin-bottom: 6vh;
+  position: relative;
+}
+
+.sname {
+  position: absolute;
+  top: -3vh;
+}
+
+.sscore {
+  position: absolute;
+  top: -3vh;
+  right: 0;
+}
+
+.htmlbar {
+  animation-name: shtml;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes shtml {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.phpbar {
+  animation-name: sphp;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes sphp {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+.cssbar {
+  animation-name: scss;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes scss {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.jsbar {
+  animation-name: sjs;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes sjs {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+.cmsbar {
+  animation-name: scms;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes scms {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+.ptsbar {
+  animation-name: spts;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  background-color: blue;
+  height: 3vh;
+  width: 80%;
+}
+
+@keyframes spts {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 55%;
+  }
+}

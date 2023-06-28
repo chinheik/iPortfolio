@@ -152,7 +152,7 @@ li:hover {
 }
 
 .fa-lg {
-  height: 40px;
+  font-size: 40px;
 }
 @media screen and (max-width: 576px) {
   .abticon {

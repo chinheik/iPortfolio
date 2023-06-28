@@ -151,6 +151,9 @@ li:hover {
   overflow-y: scroll;
 }
 
+.fa-lg {
+  height: 40px;
+}
 @media screen and (max-width: 576px) {
   .abticon {
     flex: 0 0 auto;
@@ -299,7 +302,7 @@ li:hover {
   }
 }
 
-/******** calvin *************/
+/******** Michael *************/
 .portfolio {
   /* height:100vh; */
   width: 100%;
@@ -341,7 +344,7 @@ li:hover {
   }
 }
 
-/************ Calvin--services *************/
+/************ Michael--services *************/
 #services {
   margin: 20px 0;
   padding: 20px;
@@ -418,7 +421,7 @@ li:hover {
 }
 /* Zoe */
 
-/******** calvin *************/
+/******** Michael *************/
 #contact {
   margin: 20px 0;
   padding: 20px;

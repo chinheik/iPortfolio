@@ -388,10 +388,6 @@ li:hover {
   justify-content: center;
   align-items: center;
 }
-.fa-lg {
-  width: 40px;
-  height: 40px;
-}
 
 @media screen and (max-width: 800px) {
   .wrapper {
